@@ -1,0 +1,51 @@
+size(800,800);
+background(255,255,255);
+
+//mochila base
+strokeWeight(12);
+fill(255,44,44);
+rect(430,360,300,600,300);
+
+//mochila sombra
+noStroke();
+fill(154,0,0);
+rect(600,440,125,600,100);
+
+//corpo sombra
+stroke(0,0,0);
+fill(154,0,0);
+rect(230,180,400,800,500);
+
+//corpo base
+noStroke();
+fill(255,44,44);
+rect(236,186,358,570,500);
+
+stroke(0,0,0);
+noFill();
+rect(230,180,400,800,500);
+
+//base olho
+fill(98,89,176);
+stroke(0,0,0);
+strokeWeight(12);
+rect(200,300,300,220,120);
+
+//olho cor 2
+fill(116,109,159);
+noStroke();
+rect(210,310,260,180,120);
+
+//olho cor 3
+fill(154,141,194);
+noStroke();
+rect(210,310,220,140,120);
+
+//olho branco
+fill(255,255,255);
+noStroke();
+rect(210,330,110,80,120);
+
+noFill();
+stroke(0,0,0);
+rect(200,300,300,220,120);
